@@ -1,0 +1,36 @@
+.search-form{
+    width:80%;
+    margin:auto;
+}
+.search-form .btn-group{
+    width:100%;
+    margin-bottom:5px;
+}
+.search-form .btn-group button{
+    width:50%;
+    display:inline-block;
+    color:black;
+}
+.search-form .caption{
+    margin-left:5%;
+}
+#neighborhood-list,#building-list{
+    margin-top:3px;
+}
+#neighborhood-list li, #building-list li{
+    margin:2px 10px;
+    margin-bottom:1px;
+    padding-top:1px;
+    padding-bottom:1px;
+    padding-right:20px;
+    border: 1px solid #ad9c9c;
+    box-shadow: 0px 2px 4px rgba(224, 224, 224, 0.8);
+    border-radius: 4px;
+}
+.fa.fa-close{
+    margin-top:4px;
+    color:blue;
+}
+.fa.fa-close:hover{
+    cursor:pointer;
+}
